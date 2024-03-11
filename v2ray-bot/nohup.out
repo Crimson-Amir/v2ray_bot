@@ -1,0 +1,657 @@
+python3: can't open file '/root/telegram_bot/v2ray-bot/your_script.py': [Errno 2] No such file or directory
+/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/conversationhandler.py:288: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/conversationhandler.py:288: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+           ^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 3140, in get_updates
+    self._post(
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+           ^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 3140, in get_updates
+    self._post(
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+           ^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 3140, in get_updates
+    self._post(
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+           ^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 3140, in get_updates
+    self._post(
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+           ^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 3140, in get_updates
+    self._post(
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+           ^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 3140, in get_updates
+    self._post(
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+           ^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 3140, in get_updates
+    self._post(
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+           ^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 3140, in get_updates
+    self._post(
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+           ^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 3140, in get_updates
+    self._post(
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+           ^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 3140, in get_updates
+    self._post(
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+{'success': True, 'msg': 'LoginSuccess', 'obj': None}
+{'success': True, 'msg': 'LoginSuccess', 'obj': None}
+/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/conversationhandler.py:288: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/handler.py", line 199, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/tasks.py", line 767, in financial_transactions
+    with open(f'financial_transactions/{query.message.chat_id}.txt', 'r', encoding='utf-8') as e:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'financial_transactions/599439425.txt'
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/handler.py", line 199, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/tasks.py", line 767, in financial_transactions
+    with open(f'financial_transactions/{query.message.chat_id}.txt', 'r', encoding='utf-8') as e:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'financial_transactions/599439425.txt'
+Exiting immediately!
+/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/conversationhandler.py:288: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+{'success': True, 'msg': 'LoginSuccess', 'obj': None}
+list index out of range
+list index out of range
+list index out of range
+connect Successful!
+connect Successful!
+{'success': True, 'msg': 'Client(s) addedSuccess', 'obj': None}
+connect Successful!
+'Writer' object has no attribute 'save'
+/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/conversationhandler.py:288: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+{'success': True, 'msg': 'LoginSuccess', 'obj': None}
+connection problem
+code: 404
+url: https://admin.ggkala.shop:2053/ Expecting value: line 1 column 1 (char 0)
+connect Successful!
+Expecting value: line 1 column 1 (char 0)
+/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/conversationhandler.py:288: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+{'success': True, 'msg': 'LoginSuccess', 'obj': None}
+connect Successful!
+connect Successful!
+{'success': True, 'msg': 'Client(s) addedSuccess', 'obj': None}
+connect Successful!
+connect Successful!
+'NoneType' object is not subscriptable
+connect Successful!
+connect Successful!
+connect Successful!
+connect Successful!
+{'success': True, 'msg': 'Client(s) addedSuccess', 'obj': None}
+connect Successful!
+connect Successful!
+'NoneType' object is not subscriptable
+connect Successful!
+connect Successful!
+{'success': True, 'msg': 'Client(s) addedSuccess', 'obj': None}
+connect Successful!
+connect Successful!
+connect Successful!
+/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/conversationhandler.py:288: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+{'success': True, 'msg': 'LoginSuccess', 'obj': None}
+/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/conversationhandler.py:288: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/handler.py", line 199, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/tasks.py", line 777, in start_timer
+    update.message.reply_text('Timer started! ✅')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/handler.py", line 199, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/tasks.py", line 769, in financial_transactions
+    with open(f'financial_transactions/{query.message.chat_id}.txt', 'r', encoding='utf-8') as e:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'financial_transactions/2006273041.txt'
+{'success': True, 'msg': 'LoginSuccess', 'obj': None}
+connect Successful!
+connect Successful!
+{'success': True, 'msg': 'Client updatedSuccess', 'obj': None}
+connect Successful!
+connect Successful!
+connect Successful!
+{'success': True, 'msg': 'Client updatedSuccess', 'obj': None}
+connect Successful!
+connect Successful!
+connect Successful!
+{'success': True, 'msg': 'Client(s) addedSuccess', 'obj': None}
+connect Successful!
+connect Successful!
+connect Successful!
+connect Successful!
+connect Successful!
+connect Successful!
+connect Successful!
+connect Successful!
+/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/conversationhandler.py:288: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/admin_task.py", line 69, in add_service
+    user_message = eval(update.message.reply_to_message.text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 1
+    /add_service
+    ^
+SyntaxError: invalid syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/handler.py", line 199, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/admin_task.py", line 81, in add_service
+    update.message.reply_text(e)
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/message.py", line 977, in reply_text
+    return self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 364, in post
+    body=json.dumps(data).encode('utf-8'),
+         ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type SyntaxError is not JSON serializable
+{'success': True, 'msg': 'LoginSuccess', 'obj': None}
+invalid syntax (<string>, line 1)
+connect Successful!
+connect Successful!
+{'success': True, 'msg': 'Client(s) addedSuccess', 'obj': None}
+connect Successful!
+connect Successful!
+connect Successful!
+/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/conversationhandler.py:288: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/handler.py", line 199, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/tasks.py", line 406, in personalization_service_lu
+    id_ = context.user_data['personalization_client_lu_id']
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'personalization_client_lu_id'
+Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+           ^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 3140, in get_updates
+    self._post(
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+           ^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 3140, in get_updates
+    self._post(
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+           ^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 3140, in get_updates
+    self._post(
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+           ^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 3140, in get_updates
+    self._post(
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+           ^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 3140, in get_updates
+    self._post(
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+           ^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 3140, in get_updates
+    self._post(
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+           ^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 3140, in get_updates
+    self._post(
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+{'success': True, 'msg': 'LoginSuccess', 'obj': None}
+errot: Query is too old and response timeout expired or query id is invalid
+connect Successful!
+connect Successful!
+connect Successful!
+{'success': True, 'msg': 'Client(s) addedSuccess', 'obj': None}
+connect Successful!
+connect Successful!
+Traceback (most recent call last):
+  File "/root/telegram_bot/v2ray-bot/main.py", line 1, in <module>
+    from telegram.ext import (Updater, CommandHandler, CallbackQueryHandler)
+ModuleNotFoundError: No module named 'telegram'
+/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/conversationhandler.py:288: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/root/telegram_bot/v2ray-bot/venv/lib/python3.11/site-packages/telegram/ext/conversationhandler.py:288: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+{'success': True, 'msg': 'LoginSuccess', 'obj': None}
+{'success': True, 'msg': 'LoginSuccess', 'obj': None}
